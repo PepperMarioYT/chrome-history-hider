@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "History Corrupter",
+  "version": "1.0",
+  "description": "Makes the browser history look corrupted.",
+  "permissions": [
+    "history",
+    "sessions",
+    "tabs"
+  ],
+  "chrome_url_overrides": {
+    "history": "blocked.html"
+  }
+
+}
